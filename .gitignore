@@ -66,3 +66,5 @@ star_ecom/public/store/assets/
 
 .woff
 .woff2
+*~
+*.swp
