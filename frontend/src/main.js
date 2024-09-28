@@ -4,14 +4,7 @@ import { createApp } from 'vue'
 import router from './router'
 import App from './App.vue'
 
-import {
-  Button,
-  Card,
-  Input,
-  setConfig,
-  frappeRequest,
-  resourcesPlugin,
-} from 'frappe-ui'
+import { Button, Card, Input, setConfig, frappeRequest, resourcesPlugin } from 'frappe-ui'
 
 let app = createApp(App)
 

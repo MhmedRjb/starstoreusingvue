@@ -175,7 +175,7 @@ app_license = "mit"
 # ------------------------------
 #
 override_whitelisted_methods = {
-"erpnext.accounts.doctype.pos_invoice.pos_invoice.get_pos_reserved_qty_of_bundles": "star_ecom.api.get_pos_reserved_qty_of_bundles"
+	"erpnext.accounts.doctype.pos_invoice.pos_invoice.get_pos_reserved_qty_of_bundles": "star_ecom.api.get_pos_reserved_qty_of_bundles"
 }
 #
 # each overriding function accepts a `data` argument;
@@ -243,4 +243,8 @@ override_whitelisted_methods = {
 # }
 
 
-website_route_rules = [{'from_route': '/frontend/<path:app_path>', 'to_route': 'frontend'}, {'from_route': '/store/<path:app_path>', 'to_route': 'store'}, {'from_route': '/store/<path:app_path>', 'to_route': 'store'},]
+website_route_rules = [
+	{"from_route": "/frontend/<path:app_path>", "to_route": "frontend"},
+	{"from_route": "/store/<path:app_path>", "to_route": "store"},
+	{"from_route": "/store/<path:app_path>", "to_route": "store"},
+]
